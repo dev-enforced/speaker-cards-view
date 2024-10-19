@@ -1,3 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: metropolisLight;
+    src: url(../../public/fonts/Metropolis-Light.ttf);
+}
+
+@font-face {
+    font-family: metropolisMedium;
+    src: url(../../public/fonts/Metropolis-Medium.ttf);
+}
+
+@font-face {
+    font-family: metropolisRegular;
+    src: url(../../public/fonts/Metropolis-Regular.ttf);
+}
+
+@font-face {
+    font-family: metropolisSemiBold;
+    src: url(../../public/fonts/Metropolis-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: metropolisBold;
+    src: url(../../public/fonts/Metropolis-Bold.ttf);
+}
+
+.font-metropolisLight{
+    font-family: metropolisLight;
+}
+
+.font-metropolisMedium{
+    font-family: metropolisMedium;
+}
+
+.font-metropolisRegular{
+    font-family: metropolisRegular;
+}
+
+.font-metropolisSemiBold{
+    font-family: metropolisSemiBold;
+}
+
+.font-metropolisBold{
+    font-family: metropolisBold;
+}

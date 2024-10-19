@@ -1,15 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Speaker Cards View</title>
-    <link href="./src/styles/output.css" rel="stylesheet"/>
-</head>
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <link href="../src/styles/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex flex-col bg-white">
+      <div class="flex flex-col gap-2.5 items-center px-4 md:px-0">
+        <h2 class="font-metropolisBold text-lg md:text-3xl">
+          View our Featured Speakers for the Event
+        </h2>
+        <p class="font-metropolisMedium md:text-lg text-sm text-center">
+          Speakers are core contributors and industry thought leaders working at
+          <span class="text-[#003FB4]">companies</span> that push for
+          innovation.
+        </p>
+      </div>
 
-</body>
+      <div class="flex flex-wrap gap-5">
+        <div
+          class="flex flex-col w-[285px] justify-center px-5 py-9 shadow-[4px_10px_24px_0_#0000001A]"
+        >
+          <img
+            src="./assets/images/speaker_1_nida.jpg"
+            class="self-center rounded-full w-[150px] h-[150px] object-cover"
+            alt=""
+          />
+
+          <h3 class="font-metropolisBold text-xl text-center pt-4 pb-3">
+            Nida Shaikh
+          </h3>
+          <div class="flex flex-col items-center">
+            <h5 class="font-metropolisSemiBold text-md">Software Engineer</h5>
+            <p class="text-[#6B6B6B] text-sm font-metropolisLight">
+              ContentStack
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col w-[285px] justify-center px-5 py-9 shadow-[4px_10px_24px_0_#0000001A]"
+        >
+          <img
+            src="./assets/images/speaker_2_kamlesh.jpg"
+            class="self-center rounded-full w-[150px] h-[150px] object-cover"
+            alt=""
+          />
+
+          <h3 class="font-metropolisBold text-xl text-center pt-4 pb-3">
+            Kamlesh Chandnani
+          </h3>
+          <div class="flex flex-col items-center">
+            <h5 class="font-metropolisSemiBold text-md">
+              Principal Frontend Engineer - III
+            </h5>
+            <p class="text-[#6B6B6B] text-sm font-metropolisLight">Razorpay</p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col w-[285px] justify-center px-5 py-9 shadow-[4px_10px_24px_0_#0000001A]"
+        >
+          <img
+            src="./assets/images/speaker_3_ravi.jpg"
+            class="self-center rounded-full w-[150px] h-[150px] object-cover"
+            alt=""
+          />
+
+          <h3 class="font-metropolisBold text-xl text-center pt-4 pb-3">
+            Ravi Teja
+          </h3>
+          <div class="flex flex-col items-center">
+            <h5 class="font-metropolisSemiBold text-md">Principal Tech</h5>
+            <p class="text-[#6B6B6B] text-sm font-metropolisLight">
+              D. E. Shaw India
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col w-[285px] justify-center px-5 py-9 shadow-[4px_10px_24px_0_#0000001A]"
+        >
+          <img
+            src="./assets/images/speaker_6_smile.jpg"
+            class="self-center rounded-full w-[150px] h-[150px] object-cover"
+            alt=""
+          />
+
+          <h3 class="font-metropolisBold text-xl text-center pt-4 pb-3">
+            Smile Gupta
+          </h3>
+          <div class="flex flex-col items-center">
+            <h5 class="font-metropolisSemiBold text-md">Senior Frontend Engineer</h5>
+            <p class="text-[#6B6B6B] text-sm font-metropolisLight">
+              Razorpay
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative flex gap-12 justify-center pb-8 md:pb-14">
+        <p class="font-metropolisLight self-end max-w-[140px]">
+          Click here to see the full program
+        </p>
+        <button class="bg-[#003FB4] py-2 px-6 rounded-md self-center">
+          <p class="text-white font-metropolisSemiBold">See the Program</p>
+        </button>
+        <img
+          src="./assets/images/arrow.png"
+          class="absolute bottom-0 w-20 md:w-auto"
+        />
+      </div>
+    </div>
+  </body>
 </html>
